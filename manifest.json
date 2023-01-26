@@ -1,0 +1,13 @@
+{
+    "name": "Bypass Debugger",
+    "version": "1.0",
+    "permissions": ["debugger"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Home Page"
+    },
+    "manifest_version": 3
+}
